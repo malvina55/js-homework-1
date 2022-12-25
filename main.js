@@ -5,7 +5,7 @@ var minus = +prompt('15 - 5 = ');
 var umnoj = +prompt('5 * 6 = ');
 var del = +prompt('30 / 6 = ');
 var pros = +prompt('32 % 6 = ');
-alert('откройте консоль')
+alert('откройте консоль'); 
 
 
 
@@ -17,9 +17,9 @@ console.log('5 * 6 = ' + (5 * 6) + ' Ваш ответ: ' + umnoj);
 console.log('30 / 6 = ' + (30 / 6) + ' Ваш ответ: ' + del);
 console.log('32 % 6 = ' + (32 % 6) + ' Ваш ответ: ' + pros);
 
-// var x = +prompt('Введите  число')
-// var y = +prompt('Введите второе число')
-// var z = +prompt('Введите третье число')
-// var res = (x + y + z) / 3;
+var x = +prompt('Введите  число')
+var y = +prompt('Введите второе число')
+var z = +prompt('Введите третье число')
+var res = (x + y + z) / 3;
 
-// alert(res)
+alert(res)
